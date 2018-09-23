@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXMasonryPane?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="app.dabolus.f2me.app.AppController"
-            prefWidth="800" prefHeight="480">
+<AnchorPane prefHeight="480" prefWidth="640" xmlns="http://javafx.com/javafx/8.0.121"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.dabolus.f2me.app.AppController">
+  <JFXMasonryPane AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0"
+                  AnchorPane.topAnchor="0">
+    <children>
+      <JFXButton mnemonicParsing="false" prefHeight="92" prefWidth="92" text="%file2image"/>
+      <JFXButton mnemonicParsing="false" prefHeight="92" prefWidth="92" text="%image2file"/>
+      <JFXButton disable="true" mnemonicParsing="false" prefHeight="92" prefWidth="92" text="%file2audio"/>
+      <JFXButton disable="true" mnemonicParsing="false" prefHeight="92" prefWidth="92" text="%audio2file"/>
+    </children>
+  </JFXMasonryPane>
 </AnchorPane>

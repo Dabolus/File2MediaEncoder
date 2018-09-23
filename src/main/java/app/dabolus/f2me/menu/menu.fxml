@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import javafx.scene.layout.StackPane?>
+
+<JFXDrawer xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="app.dabolus.f2me.menu.MenuController"
+           sidePane="#drawer-content">
+  <StackPane fx:id="drawer-content">
+
+  </StackPane>
+</JFXDrawer>
